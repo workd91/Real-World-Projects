@@ -41,10 +41,32 @@ The problem is broken down into
 12.What Business Value Does The Solution Provide? 
 
 Each part of the problem can itself be a task that businesses are after. I will share as much resource of information to make the path to solution easier but it's a hard task. This will differentiate your skillset. 
+
 Here are some of the resources to get your started 
+
 Problem recognition steps for this problem to understand the business requirement. Financial institutions, corporate business have enough data but they need contextual model to convert unstructured data into a business insight. www.cio.com provides survey and insights from the CIO across multiple domain. They showcase what are the painpoints organization are facing at the moment. Case study is always a first step to understanding the problem. 
 
+At Present most of the solution utlizies word embedding (word meaning based on nearby words occuring together). Most of the words carry different meaning depending on the context where they occur (Polysemy). Identifying relationship between words and sentences in which they occur gives semantic and linguistic relationship.
+
 Machine learning models are good at interpolating. Data with good amount of variance is required. 
+
 For datasets -- www.annualreports.com
-For Contextual Neural Network - Elmo - > https://github.com/allenai/bilm-tf
-Bert --> 
+
+For Language Modelling - Contextual Neural Network - Elmo - > https://github.com/allenai/bilm-tf
+
+Bert (Language Modelling Network)--> https://github.com/google-research/bert
+
+
+<h1> Image Enhancement </h1>
+Image enhancement has lot of potential use cases from computer vision problem like self driving cars, retail self checkouts, aerial/ satellite imaging, drone imaging, and many other. Image enhancement is basically upsampling the image size by understanding how to reconstruct high resolution images from a given image. Image captured from mobiles and camera have noise. The resolution capacity varies across different camera. Lighting variation in the real world impact the amount of information captured by the camera sensors. 
+
+When we segregate noise there are
+<li> Shot Noise </li>
+<li>Guassian Noise </li>
+<li>Salt And Pepper Noise </li>
+<li>Sensory noise </li> 
+<li>Motion Blur </li>
+
+Image enhancement methods need to understand ability to reconstruct image pixel from noisy pixel and low light pixels. Images contain soft boundary transistion between foreground and background objects. Reconstructing image pixel is a difficult task considering how real world physics impacts the images. Physics is everywhere so there are lot of variance in the data due to material property of the object like reflection, illumination etc. These stochasticity make the task harder to reconstruct original pixels. Earlier approaches used nearby pixels technique to reconstruct the pixels that aren't good. Deep learning took a step further to identify interpolate pixels from the data that it's trained on. Deep learning are coming due to their inability to generate proper low resolution and high resolution pairs of images for training. Modelling the physics variable for low-resolution image is difficult so most of the deep learning model use bicubic downsampling or bilinear downsampling to generate low resolution images. These low resolution images aren't modelling real world noises. 
+
+Let's breakdown what happen when you use a bicubic downsampling? You are basically sampling nearby pixels into a single pixel. Number of nearby pixel to consider depends on the downsampling proportion. 
