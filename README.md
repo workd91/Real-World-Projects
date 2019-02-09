@@ -96,8 +96,58 @@ Processing bigger image resolution could be challenging if there is GPU constrai
 <h2> Industrial Use Care </h2>
 The graphic and gaming are predominantly involved in image processing have shown interest in image enhancement. Lighting variation can cause noisyness in the image. It's extremely time consuming to develop good designs. Deeplearning models are data hungry and having a high-resolution images creates models with better accuracy and lower training times. In order to overcome domain shift that can happen during inference,  image enhancement models can be deployed. Since we can transfer the domain variation from one domain to other we are able to create a better enhancement model so that deep learning neural networks don't have to deal with such physics variation. Most of the classification models are task specific so they don't have global context and relationship with other objects in the image. While GAN's have to understand the overall scene relation so the output from GAN's are good for neural network that perform downstream task. Most of the computer vision models don't have control over the low level pixel so they have to learn all the variation in the input without overall context. So pixel variation due to lighting, reflectance and illumination can affect accuracy of the model. 
 
-Having a image enhancement prior to the downstream computer vision task can be great performance enhancer. 
+Having a image enhancement prior to the downstream computer vision task can be great performance enhancer. Let's break down what it can learn it's not as simple as smoothening out the edges of the blurry image. It has to understand the geometry of the object & their relation in the scene to enhance the resolution of the image. The soft transistion of image texture has to be understand by the model so that the edges are sharp. While enhancing the resolution of the image the information contained in one pixel has to be recreated in the each neighboring pixel instead of smoothening the pixel value. Smoothening often results in blurry edges. So the image enhancement model require local pixel level information as well as global context of the object. That's why it's often beneficial to joint optimize task so that one task can learn from other. Coupling object detection/classification with image enhancement can allow the model to learn faster and object level features. When it comes to semantic segmentation task we need to precisely understand the boundary transistion of the objects in the image. Semantic segmentation helps to understand the whole scene. Supervised learning task speed up the training process in the image enhancement GAN's. 
 
+<li> Graphic Designing/ 3D Designing </li>
+<li> Gaming </li>
+<li> Computer vision Task (Consumer Facing Apps/ Industrial Apps) </li>
+<li> Digital Marketing </li> 
+<li> Social Media Content Creation </li>
+<li> AR </li>
+<li> Movies </li> 
+
+<h1> Retail Operation </h1> 
+After a fierce competition from ecommerce stores, retail stores have adopted new technology to enhance their existing line of business. Most of the retail decisions in merchandising, sourcing, store design, sales, personalization are based on information stored in spreadsheets. As the world is transistioning from spreadsheets to better analytical tools so that employees can have access to tools and insights for intelligent decision making. Entire supply chain decisions are made from processing different forms of data. Metrics that were used prior to account for different variations of data like images, text, and numerical were biased, lacked contextual information, lacked proper metric to evaluate asthetics of the image, consumer reaction etc. 
+
+One of the major concerns with retail stores and ecommerce stores is the lack of skilled labor due to changing technologies. Organizations are unable to adopt new technology because they lack the expertise to setup a proper employee transistion corporate training program that would provide tools and insight that allow professional to progress their domain expertise to work different levels of information to create values.   
+
+Some of the problems that retail stores face 
+<li> Demand Estimation </li>
+<li> Inventory Management </li>
+<li> Last Mile Delivery Challenge </li>
+<li> Supply Chain Optimization </li>
+<li> Merchandising </li>
+<li> Staffing </li>
+
+<h2> Demand Estimation </h2> 
+The rise of e-commerce stores have put a pressure on retail stores to adapt innovative strategies. The online shopping gave rise to a same day purchase patterns. People's shopping patterns are influenced by the videos and trends happening on the social media. Urban cities are a challenge for retail stores due to high-frequency & low volume of orders. This randomness in purchase behavior has created uncertainty in supply chain and demand estimation. Retail stores have becomes hubs for faster delivery in cities so replenishing inventory is a challenge due to traffic and parking concerns. Massive survey among CIO's of the organization showcased that one of the main concerns were demand estimation. Lack of inventory could cost them ton of sales. Walmart in the third quarter of 2018 hit with a inventory problem in the retail stores. Target also felt the impact of lack of inventory with orders to fulfil. How do we evaluate demand for product that different lifecycle in the retail space. 
+
+Proper demand estimation could reduce 
+<li> Constant replenishment to the retail stores </li>
+<li> Transportation cost </li>
+<li> Employees can focus on customer </li>
+<li> Lack of inventory as well as inventory pile up </li>
+
+It would also mean equipping the staff at the store with tools and insight that can enable them to make multi-step reasoned out decision. Most of the operation in retail space happen in the spreadsheets. Omnichannel style of having all the retail activity in one place can give a overview of the scene. It requires well-reasoned out analysis to evaluate the factors that influenced the sale by considering events that led to the scenario. 
+
+One of the difficult challenges is combining data that are spreadout in different forms like images, text, number etc. Previous held out standard of analysis would convert data into numerical features to evaluate this would mean the contextual and visual aesthetics of the data is lost. These data are important as it impact how customers make decision everyday looking at the shelves where the products are placed. Forecasting demand is challenging task since the variation in data can be from many different factors like external climate, gasoline prices, inflation, job/wage growth, interest rates, stock market prices, consumer sentiment, housing prices, taxes, private investments, consumption vs saving, growth capital availability etc. 
+
+Some products have smaller lifecycle while some product have longer lifecycle and it's particularly difficult to perfect piece of data that can represent the customer behavior patterns. There are many machine learning technique that provide good result in estimating demand. We have seen uber use a demand estimation model to predict the number of rides that would happen in a given day. 
+
+Stock availability is a key variable in retaining the customer and generating a dense volume of order from them. Especially in the ecommerce filled world it's difficult to retain customers as they can find better offers in other places. Prediction of the demand for retail product would allow stores to structure their operation in a deterministic way thereby accomplishing cost reduction and optimal usage of resources. Point of sale (POS) data isn't enough to figure out the events that influenced customers to buy today vs tomorrow. But most of POS data isn't represented in the form that they naturally occur. That's why we need model that can process images (color, texture, scenes etc), contextual nature of text present in those packaging, brand popularity, brand contents & their impact etc. 
+
+Deep Learning offers good solutions to model different variation in data. We could combine image features using Convolution networks with contextual nlp models that recognize contextual meaning of the sentence. Representing data in higher dimension can help identify trends, factors that influence the behavior pattern of the consumer. 
+
+Real Time Sales data is available on amazon.com where they publish top 100 selling products each hour. You can build a dataset that would represent features of the products and other features associated with the product. You can create sales models that can show factors that impact sales and influence consumer behavior. 
+
+Data Source - www.amazon.com & while kaggle and other data science community has lot of data about sales prediction. A real time dataset would be more ideal. amazon.com would be ideal space to generate real time data and see how your model fairs in real time. 
+
+Simple Regression and Prediction models to start the transition to more realistic models 
+Image Convolution Reads And Repos to get started - 
+Contextual NLP Models -- 
+Some of the retail space breakdown to learn more about the problem. Domain specific knowledge is helpful in correlating different factors that can impact the customer behavior patterns. Cognitive skills coupled with domain expertise brings better talent pool to organization. 
+
+<h1> Inventory Management </h1> 
 
 
 
