@@ -1,9 +1,9 @@
 # Real-World-Projects
-Degrees have become rather costlier so finding an alternative means to gain skill and knowledge for a job by solving real world problem. This isn't restricted to finding a job and this also helps people to progress their career. Businesses want to mitigate risk so when they are hiring someone, they would know the behavior pattern of the person. Degrees from universities would validate the knowledge and discipline of the candidate. 
-Let's reverse engineer the logic of hiring (business needs) - Degrees signify lot of information that companies look for in finding real talent. At the end of the day businesses require people who deliver and can be an asset in progressing the business. They would like candidates to take responsibility and challenging organization roles. Businesses gain competitive advantage by having talented pool(Diverse cognitive skillset) of people in the organization. Real world problems are daunting than college projects and require lot of skillset to be gained while engineering a solution to the project. 
-This repo is a guide to setting up a real world project that can enable people to gain knowledge on the problem and find solution. End of goal is to allow people to get hired as well progress their career. It's an alternative to college degree that can stay on the resume. 
+Degrees have become rather costlier so finding an alternative means to gain skill and knowledge for a job by solving real world problem. This isn't restricted to finding a job and this also helps people to progress their career. Businesses want to mitigate risk so when they are hiring someone, they would like know the behavior pattern of the person. Degrees from universities would validate the knowledge and discipline of the candidate. 
+Let's reverse engineer the logic of hiring (business needs) - Degrees signify lot of information that companies look for in finding real talent. At the end of the day businesses require people who deliver and can be an asset in progressing the business. They would like candidates to take responsibility and challenging organization roles. Businesses gain competitive advantage by having talented pool(Diverse cognitive skillset) of people in the organization. Real world problems are daunting than college projects and require a lot of skillset to be gained while engineering a solution to the project. 
+This repo is a guide to setting up a real world project that can enable people to gain knowledge on the problem and find solution. End  goal is to allow people to get hired as well progress their career. It's an alternative to college degree that can stay on the resume. 
 
-Internet has created ton of information across domains and lot of free resources to learn. In order to be hired people have to unique. Most college degrees have same syllabus for everyone but in a market place we need people with unique skillset to resolve problem. Unique skillset are gained through pursual of real project in their own unique ways. 
+Internet has created tons of information across domains and lot of free resources to learn. In order to be hired people have to unique. Most college degrees have same syllabus for everyone but in a market place we need people with unique skillset to resolve problem. Unique skillset are gained through pursual of real project in their own unique ways. 
 
 One of the main concerns across sectors is the lack of talent due to changing technology. To stay relevant people have to be unique. 
 
@@ -33,14 +33,15 @@ The problem is broken down into
 6. Engineering A Network - Mathematical Modelling, Networks To Use, Loss Function, Hyperparameter etc. 
 7. Data Evaluation - Metrics
 8. Out Of Distribution Data
-9. Edge Case Analysis
-10.Model Production 
+9. Edge Case Analysis 
 
-11.Performance Evaluation In Real World - Testing In Diverse Variance In The Real World And Setting Benchmarks
+10. Model Production 
 
-12.What Business Value Does The Solution Provide? 
+11. Performance Evaluation In Real World - Testing In Diverse Variance In The Real World And Setting Benchmarks
 
-Each part of the problem can itself be a task that businesses are after. I will share as much resource of information to make the path to solution easier but it's a hard task. This will differentiate your skillset. 
+12. What Business Value Does The Solution Provide? 
+
+Each part of the problem can itself be a task that businesses are after. I will share as much resource of information to make the path to the solution easier but it's a hard task. This will differentiate your skillset. 
 
 Here are some of the resources to get your started 
 
@@ -70,7 +71,7 @@ We would need model that could recognize patterns from companies that flourish i
 
 <p> Lack of evidence can create bias in the decision making process. Exploration is cool only if it's based on logical reasoning based certain traits, behavior and conditions. Even if the product that are created is unique there is still uncertainty in how it will sell in a retail environment where the time to grab customer attention is less and your product competes with other products that may be well known. Imagine a well established brand is launching a new product then the problem over here is how would objective evaluate the performance of the product. We compare the image features and contextual text features with other products in the category to evaluate the performance. There are many other factor like the marketing campaign that went along when the product was launched and the medium how they interacted with the customer is very dynamic so the parameters we're comparing are different so. How do we address this problem? We can evaluate the pain points in the customer and how the product would impact the customer in a beneficial way. Then again it would rely on how well the benefits of the products are presented to the customer, how long was the campaign, the audience age group that were targeted, response to the ads, visual aesthics of the ad in conveying the message to the consumer. </p> 
 
-<p> There are scenarios where there is not lack of data but just lack of model capabilities to understand implicit features. For example when people take car insurance it implicitly suggest people are taking some responsibility in life whether it's the first job or transition to a bigger role in the job or starting a family or taking care of entire family. This data of buying a car insurance can imply transitionary phase that people go through. If we combine it with the age of the person. We can see career wise in what phase they're. Taking reponsibility comes with uncertainty and one way to mitigate uncertainty is through insurance. They're potential customers but how we represent the brand content to convince these audience group plays a role. People can't logical dot connection by factoring all events because of stochasity in the behavior of the environment (dynamic environment)
+<p> There are scenarios where there is not lack of data but just lack of model capabilities to understand implicit features. For example when people take car insurance it implicitly suggest people are taking some responsibility in life whether it's the first job or transition to a bigger role in the job or starting a family or taking care of entire family. This data of buying a car insurance can imply transitionary phase that people go through. If we combine it with the age of the person. We can see career wise in what phase they're. Taking reponsibility comes with uncertainty and one way to mitigate uncertainty is through insurance. They're potential customers but how we represent the brand content to convince these audience group plays a role. People can't connect logical dot connection by factoring all events because of stochasity in the behavior of the environment (dynamic environment)
 
 
 <h1> Image Enhancement </h1>
